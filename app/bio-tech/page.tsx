@@ -1,11 +1,15 @@
 "use client";
 
 import Link from "next/link";
-import Footer from "../../components/Footer";  // Import the Footer component
+import Footer from "../../components/Footer";  // Correct import statement
+import { getBackgroundStyle } from "../../utils/BackgroundStyles";  // Correct import statement
 
 export default function BioTech() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main
+      className="flex min-h-screen flex-col items-center justify-between p-24"
+      style={getBackgroundStyle('red')}
+    >
       <header>
         <nav>
           <ul className="flex space-x-4">

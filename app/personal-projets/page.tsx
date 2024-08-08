@@ -1,10 +1,15 @@
 "use client";
 
 import Link from "next/link";
+import Footer from "../../components/Footer";  // Correct import statement
+import { getBackgroundStyle } from "../../utils/backgroundStyles";  // Correct import statement
 
 export default function PersonalProjects() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main
+      className="flex min-h-screen flex-col items-center justify-between p-24"
+      style={getBackgroundStyle('green')}
+    >
       <header>
         <nav>
           <ul className="flex space-x-4">
@@ -19,9 +24,7 @@ export default function PersonalProjects() {
         <h1>Personal Projects</h1>
         <p>Discover innovative object detection and Pokémon card valuation.</p>
       </main>
-      <footer>
-        <p>&copy; 2023 Prashant Umrekar. All Rights Reserved.</p>
-      </footer>
+      <Footer /> {/* Include the Footer component */}
     </main>
   );
 }
