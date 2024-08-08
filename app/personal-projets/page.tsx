@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Footer from "../../components/Footer";  // Correct import statement
-import { getBackgroundStyle } from "../../utils/backgroundStyles";  // Correct import statement
+import { getBackgroundStyle } from "../../utils/BackgroundStyles";  // Correct import statement
 
 export default function PersonalProjects() {
   return (

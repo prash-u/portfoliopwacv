@@ -6,7 +6,7 @@ import { useEffect } from "react";
 import $ from "jquery";
 import "slick-carousel";
 import Footer from "../components/Footer";  // Correct import statement
-import { getBackgroundStyle } from "../utils/backgroundStyles";  // Correct import statement
+import { getBackgroundStyle } from "../utils/BackgroundStyles";  // Correct import statement
 
 export default function Home() {
   useEffect(() => {
