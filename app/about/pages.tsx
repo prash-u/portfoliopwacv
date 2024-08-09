@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Footer from "../../components/Footer";  
-import { getBackgroundStyle } from "../../utils/backgroundStyles";  
+import { getBackgroundStyle } from "../../utils/BackgroundStyles";  
 
 export default function About() {
   return (
